@@ -1,0 +1,24 @@
+/* Print styles for saving portfolio to PDF */
+@media print {
+  header, footer, button, nav, .no-print {
+    display: none !important;
+  }
+
+  body {
+    background-color: white !important;
+    color: black !important;
+    font-size: 12pt;
+  }
+
+  .shadow-sm, .shadow-md, .shadow-lg, .shadow-xl, .shadow-2xl {
+    box-shadow: none !important;
+  }
+
+  .border {
+    border-color: #e2e8f0 !important;
+  }
+
+  .page-break {
+    page-break-before: always;
+  }
+}
