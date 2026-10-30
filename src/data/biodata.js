@@ -6,20 +6,20 @@
 
 export const biodata = {
   // Informasi Dasar Mahasiswa PPG
-  namaLengkap: "Alpian Roymundus Siringo-ringo, S.Pd.",
+  namaLengkap: "Alpian Roymundus Siringo-ringo, S.Kom.",
   nim: "25105260634",
-  bidangStudi: "Pendidikan Informatika / Kejuruan (Informatika & Elektronika)",
+  bidangStudi: "Informatika",
   perguruanTinggi: "Universitas Negeri Yogyakarta (UNY)",
-  gelombang: "Tahun Akademik 2024/2025",
+  gelombang: "Tahun Akademik 2025/2026",
   program: "Pendidikan Profesi Guru (PPG) Calon Guru",
   mataKuliahSeminar: "Seminar Pendidikan Profesi Guru",
-  email: "alpian.roymundus@uny.ac.id",
+  email: "arsiringoringo@gmail.com",
   domisili: "Yogyakarta, D.I. Yogyakarta",
   sekolahPPL: "SMK Negeri 2 Yogyakarta",
-  kelasPPL: "Kelas X Konsentrasi Keahlian Teknik Pemesinan (X TP 1 dan X TP 3)",
-  mataPelajaranPPL: "Informatika (Berpikir Komputasional)",
-  fotoProfil: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600",
-  tagline: "Calon Guru Profesional yang Reflektif, Adaptif, dan Menghamba pada Peserta Didik",
+  kelasPPL: "Kelas X Teknik Pemesinan",
+  mataPelajaranPPL: "Informatika",
+  fotoProfil: "/src/assets/Profile.png",
+  tagline: "Calon Guru Profesional yang Reflektif, Adaptif, dan Pembelajaran yang Berpusat pada Murid",
   dokumenLK1: "/dokumen/lk1-identifikasi-diri.pdf",
 
   // Visi Pendidikan di Indonesia (Otentik LK 1)
@@ -57,7 +57,7 @@ export const biodata = {
       icon: "Lightbulb"
     },
     {
-      judul: "Integritas & Keteladanan Pamong",
+      judul: "Integritas & Keteladanan",
       deskripsi: "Mewujudkan keteladanan pendidik profesional melalui transfer of values dan pembentukan budi pekerti luhur.",
       icon: "ShieldCheck"
     }
