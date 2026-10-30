@@ -1,125 +1,153 @@
 /**
- * DATA KARYA INOVASI PENDIDIKAN (LK 4 & ARTEFAK PPL)
- * Berisi rincian karya inovasi unggulan:
- * 1. Media Pembelajaran Berpikir Komputasional TaRL & DUP di SMK Negeri 2 Yogyakarta (LK 4)
- * 2. Sistem Monitoring Real-Time KBM SMK N 2 Yogyakarta (Proyek Kepemimpinan)
- * 3. Modul Ajar Deep Learning Vokasi (Head, Hand, Heart, Soul)
- * 4. Integrasi PSE & Teknik STOP di Laboratorium Komputer
+ * DATA KARYA INOVASI PENDIDIKAN (OTENTIK LEMBAR KERJA 4 / LK 4)
+ * Penulis: Alpian Roymundus Siringo-ringo, S.Kom. (NIM: 25105260634)
+ * Disajikan dalam format ringkasan eksekutif yang padat, rapi, dan sistematis.
  */
 
-export const karyaInovasi = [
+export const inovasiUtamaLK4 = {
+  id: "inovasi-utama-tarl-dup",
+  namaKarya: "Pengembangan Media Pembelajaran Interaktif Berbasis Website pada Materi Berpikir Komputasional dengan Pendekatan Teaching at the Right Level (TaRL) dan Desain Universal untuk Pembelajaran (DUP)",
+  judulSingkat: "Media Web Interaktif Berpikir Komputasional (PikirLab)",
+  kategori: "Media Pembelajaran Digital Interaktif",
+  sasaran: "Murid Kelas X Konsentrasi Keahlian Teknik Pemesinan (X TP 1 dan X TP 3) di SMK Negeri 2 Yogyakarta (36 murid per rombel)",
+  mataPelajaran: "Informatika (Materi: Berpikir Komputasional)",
+  tahun: "2025/2026",
+  berkasAsliPdf: "/dokumen/lk4-karya-inovasi.pdf",
+  linkPrototipe: "https://pikirlab.vercel.app/",
+  gambar: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=700",
+
+  // 1. Identifikasi Kebutuhan & Tantangan (4 Poin Ringkas)
+  identifikasiTantangan: [
     {
-      id: "inovasi-utama-tarl-dup",
-      judul: "Pengembangan Media Pembelajaran Interaktif Berbasis Website pada Materi Berpikir Komputasional dengan Pendekatan TaRL dan Desain Universal untuk Pembelajaran (DUP)",
-      kategori: "Media Pembelajaran Interaktif & Digital",
-      sasaran: "Murid Kelas X Konsentrasi Keahlian Teknik Pemesinan (X TP 1 dan X TP 3) di SMK Negeri 2 Yogyakarta (36 murid per rombel)",
-      mataPelajaran: "Informatika (Materi: Berpikir Komputasional)",
-      tanggalRilis: "2025",
-      gambar: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=700",
-      deskripsiSingkat: "Media pembelajaran digital berbasis website menyerupai kursus online mandiri yang mengintegrasikan alur belajar fleksibel, simulasi interaktif, materi kontekstual bidang Teknik Pemesinan, serta asesmen formatif bertingkat 3 level.",
-      masalahYangDipecahkan: "Berdasarkan hasil observasi dan refleksi PPL di SMK Negeri 2 Yogyakarta: Kesenjangan tingkat pemahaman logika dan kesiapan belajar murid; Rendahnya keterkaitan materi dengan kehidupan nyata dan keahlian pemesinan; Tantangan menjaga fokus belajar pada jam pelajaran siang di lab komputer; serta Kebutuhan media simulatif yang fleksibel untuk belajar mandiri.",
-      solusiInovasi: [
-        "Penyajian Materi Kontekstual: Mengaitkan 4 pilar (Dekomposisi, Pengenalan Pola, Abstraksi, Algoritma) dengan prosedur bengkel pemesinan dan masalah sehari-hari.",
-        "Jalur Pembelajaran 3 Level (TaRL): Level 1 (Dasar), Level 2 (Menengah), dan Level 3 (Lanjutan) yang diawali dengan asesmen diagnostik awal.",
-        "Aktivitas & Simulasi Interaktif (DUP): Eksplorasi drag-and-drop urutan algoritma, pengelompokan pola, serta variasi multimodal representasi (teks, visual, simulasi).",
-        "Asesmen Formatif & Umpan Balik Bertahap: Kuis pada setiap materi dengan pembahasan langsung dan kesempatan mengulang berbasis Growth Mindset."
-      ],
-      prinsipInovasi: {
-        kebaruan: "Rancangan pengalaman belajar Berpikir Komputasional menyerupai kursus digital mandiri yang menggabungkan materi terstruktur, aktivitas interaktif, asesmen bertahap, dan progres belajar dalam satu platform website.",
-        kreativitas: "Mengintegrasikan teknologi website dengan prinsip DUP (variasi penyajian multimodal), prinsip TaRL (tiga level kesiapan belajar), dan Growth Mindset (umpan balik konstruktif dan revisi).",
-        relevansi: "Materi dikaitkan langsung dengan konteks Teknik Pemesinan (misalnya prosedur kerja mesin bubut/frais, identifikasi pola kerusakan mesin, dan urutan kerja mekanik).",
-        kebermanfaatan: "Bagi murid mempermudah pemahaman konsep abstrak dan memfasilitasi kecepatan belajar mandiri; bagi guru mendukung pelaksanaan pembelajaran berdiferensiasi.",
-        efektivitas: "Dievaluasi melalui uji kelayakan fungsi, evaluasi pengalaman pengguna (kuesioner skala Likert target > 80% positif), dan evaluasi perubahan hasil belajar (pre-test vs post-test)."
-      },
-      dampakHasil: "Meningkatkan keterlibatan aktif dan fokus murid di lab komputer, memangkas kebingungan konsep abstrak, dan memberikan fleksibilitas belajar mandiri sesuai kesiapan masing-masing murid.",
-      tautanArtefak: {
-        dokumenDesain: "#",
-        linkWebsite: "#",
-        panduanGuru: "#"
-      }
+      nomor: "01",
+      judul: "Kesenjangan Kesiapan Belajar",
+      deskripsi: "Dalam rombel 36 murid, ada keragaman kemampuan awal logika. Model ajar seragam menyulitkan murid yang butuh waktu lebih lama, dan menghambat murid yang butuh tantangan lanjutan.",
+      tag: "Heterogenitas 36 Murid"
     },
     {
-      id: "inovasi-proyek-kepemimpinan",
-      judul: "Rancang Bangun Sistem Monitoring Real-Time Kegiatan Belajar Mengajar Berbasis Website di SMK Negeri 2 Yogyakarta",
-      kategori: "Proyek Kepemimpinan & Sistem Informasi Sekolah",
-      sasaran: "Guru, Manajemen Sekolah, dan Peserta Didik SMK Negeri 2 Yogyakarta",
-      mataPelajaran: "Proyek Kepemimpinan (Kelompok 3B Kejuruan Informatika & Elektronika)",
-      tanggalRilis: "2025",
-      gambar: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=700",
-      deskripsiSingkat: "Aplikasi web pemantauan keterlaksanaan KBM di ruang kelas dan laboratorium praktikum secara real-time untuk meningkatkan kedisiplinan, koordinasi guru piket, dan transparansi proses belajar.",
-      masalahYangDipecahkan: "Pencatatan presensi dan keterlaksanaan KBM di bengkel dan laboratorium SMK yang luas masih bersifat manual berbasis kertas, menyebabkan keterlambatan rekapitulasi data kehadiran dan monitoring KBM.",
-      solusiInovasi: [
-        "Dashboard interaktif berbasis web untuk input status KBM per jam pelajaran oleh guru mata pelajaran / guru piket.",
-        "Fitur monitoring kehadiran guru dan siswa secara langsung dari ruang manajemen kurikulum.",
-        "Rekapitulasi otomatis log aktivitas harian kelas dan praktikum bengkel."
-      ],
-      prinsipInovasi: {
-        kebaruan: "Digitalisasi real-time pemantauan KBM terpadu antarbengkel dan laboratorium di SMK Negeri 2 Yogyakarta.",
-        kreativitas: "Pemanfaatan arsitektur web modern yang ringan dan dapat diakses dari smartphone maupun PC lab.",
-        relevansi: "Solutif bagi manajemen SMK berukuran besar dengan puluhan rombongan belajar.",
-        kebermanfaatan: "Mengurangi beban rekapitulasi manual petugas piket dan pimpinan sekolah.",
-        efektivitas: "Mempercepat alur pelaporan presensi harian dari hitungan jam menjadi instan real-time."
-      },
-      dampakHasil: "Meningkatkan efisiensi pelaporan KBM sekolah hingga 70% dan memudahkan manajemen SMK Negeri 2 Yogyakarta mengoptimalkan keterlaksanaan kurikulum.",
-      tautanArtefak: {
-        proposalProyek: "#",
-        laporanAkhir: "#"
-      }
+      nomor: "02",
+      judul: "Rendahnya Relevansi Konteks",
+      deskripsi: "Konsep Berpikir Komputasional terasa rumit dan abstrak bila hanya berupa teori. Murid membutuhkan bahasa sederhana dan analogi nyata bengkel Teknik Pemesinan.",
+      tag: "Konteks Vokasi Mesin"
     },
     {
-      id: "inovasi-modul-ajar-diferensiasi",
-      judul: "Modul Ajar Pembelajaran Mendalam (Deep Learning) Berbasis Konsep Head, Hand, Heart, and Soul",
-      kategori: "Perangkat Pembelajaran Vokasi",
-      sasaran: "Siswa SMK Fase E Konsentrasi Kejuruan Teknik Pemesinan",
-      mataPelajaran: "Informatika & Kejuruan Teknik",
-      tanggalRilis: "2024",
-      gambar: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=700",
-      deskripsiSingkat: "Perangkat ajar komprehensif yang mengintegrasikan penalaran kognitif (Head), kecakapan psikomotorik praktikum (Hand), sikap peduli dan etika kerja (Heart), serta kesadaran makna spiritual profesi (Soul).",
-      masalahYangDipecahkan: "Pembelajaran vokasi sering terjebak hanya pada keterampilan teknis mekanistik (Hand) tanpa diimbangi penalaran analitis kritis (Head) dan etika kerja profesional (Heart & Soul).",
-      solusiInovasi: [
-        "Penyusunan alur tujuan pembelajaran berbasis studi kasus nyata industri manufaktur dan IT.",
-        "Rubrik asesmen autentik 4 dimensi kompetensi kejuruan secara terpadu.",
-        "Lembar refleksi diri berkala di akhir setiap siklus praktikum lab."
-      ],
-      prinsipInovasi: {
-        kebaruan: "Mengintegrasikan aspek 'Head, Hand, Heart, Soul' ke dalam sintaks pembelajaran kejuruan Informatika.",
-        kreativitas: "Perumusan rubrik observasi yang menyeimbangkan kecakapan teknis dengan budi pekerti etika kerja.",
-        relevansi: "Menjawab kebutuhan dunia kerja dan industri (DUDI) akan karakter profesional lulusan SMK.",
-        kebermanfaatan: "Menjadi panduan operasional guru dalam menanamkan nilai-nilai karakter luhur.",
-        efektivitas: "Meningkatkan tanggung jawab penggunaan alat lab dan kesadaran K3 siswa."
-      },
-      dampakHasil: "Menciptakan pembelajaran kejuruan yang humanis, bermakna, dan membekali murid dengan etos kerja profesional yang holistik.",
-      tautanArtefak: {
-        modulAjarPDF: "#",
-        rubrikPenilaian: "#"
-      }
+      nomor: "03",
+      judul: "Tantangan Fokus Jam Siang Lab",
+      deskripsi: "Pembelajaran di lab komputer pada jam siang (12.30 - 15.00) rawan memicu kejenuhan dan distraksi gawai jika tidak ada media interaktif yang eksploratif.",
+      tag: "Siasat Jam Siang"
     },
     {
-      id: "inovasi-pse-lab",
-      judul: "Integrasi Pembelajaran Sosial Emosional (PSE) & Teknik STOP dalam Praktikum Laboratorium Komputer",
-      kategori: "Pengembangan Iklim & Budaya Positif Kelas",
-      sasaran: "Murid Kelas X SMK Negeri 2 Yogyakarta",
-      mataPelajaran: "Manajemen Kelas Praktikum Informatika",
-      tanggalRilis: "2024",
-      gambar: "https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&q=80&w=700",
-      deskripsiSingkat: "Penerapan 5 Kompetensi Sosial Emosional (CASEL) dan rutinitas kesadaran penuh (Mindfulness / STOP) sebelum dan sesudah sesi praktikum komputer untuk mereduksi frustrasi logika coding.",
-      masalahYangDipecahkan: "Tingginya tingkat stres, kecemasan, dan hilangnya fokus siswa saat menghadapi error algoritma atau praktikum di jam pelajaran siang.",
-      solusiInovasi: [
-        "Penerapan 3 menit teknik STOP (Stop, Take a breath, Observe, Proceed) saat siswa mengalami hambatan logika pemrograman.",
-        "Pemberian umpan balik konstruktif berbasis Growth Mindset (memuji proses dan strategi, bukan bakat bawaan).",
-        "Ruang diskusi reflektif 'Circle of Viewpoints' untuk menghargai perbedaan alternatif solusi teman sebaya."
-      ],
-      prinsipInovasi: {
-        kebaruan: "Penerapan teknik mindfulness (STOP) di laboratorium komputer sekolah vokasi.",
-        kreativitas: "Memadukan manajemen emosi dengan resolusi bug coding logika komputasi.",
-        relevansi: "Sangat dibutuhkan siswa SMK yang kerap menghadapi tekanan tugas praktikum.",
-        kebermanfaatan: "Menurunkan kecemasan murid dan mencegah keputusasaan saat praktikum sulit.",
-        efektivitas: "Hasil observasi menunjukkan penurunan insiden frustrasi dan peningkatan daya juang (resilience) murid."
-      },
-      dampakHasil: "Iklim laboratorium menjadi kondusif, siswa lebih gigih (resilient) menyelesaikan masalah pemrograman, dan kolaborasi antarsiswa meningkat pesat.",
-      tautanArtefak: {
-        panduanPSE: "#",
-        lembarObservasi: "#"
-      }
+      nomor: "04",
+      judul: "Kebutuhan Media Belajar Mandiri",
+      deskripsi: "Dibutuhkan platform digital menyerupai kursus mandiri dengan alur terstruktur, fleksibilitas mengulang, serta umpan balik formatif bertahap.",
+      tag: "Mandiri & Fleksibel"
     }
-  ];
+  ],
+
+  // 2. 4 Komponen Utama Website Inovasi
+  komponenWebsite: [
+    {
+      judul: "Materi 4 Fondasi Komputasi",
+      deskripsi: "Penyajian dekomposisi, pengenalan pola, abstraksi, dan algoritma menggunakan bahasa sederhana, ilustrasi, dan contoh nyata bengkel pemesinan."
+    },
+    {
+      judul: "Aktivitas & Simulasi Interaktif",
+      deskripsi: "Eksplorasi drag-and-drop urutan algoritma, pengelompokan pola, dan uji coba alternatif solusi agar murid belajar melalui pengalaman langsung."
+    },
+    {
+      judul: "Asesmen Formatif & Umpan Balik",
+      deskripsi: "Latihan soal bertahap dilengkapi kunci pembahasan langsung dan petunjuk perbaikan tanpa takut salah (berbasis Growth Mindset)."
+    },
+    {
+      judul: "Jalur Belajar & Progres Mandiri",
+      deskripsi: "Dashboard pelacak progres penyelesaian modul, status pemahaman, dan rekomendasi level lanjutan sesuai kesiapan belajar murid."
+    }
+  ],
+
+  // 3. Penerapan Pendekatan TaRL & DUP
+  pendekatanPedagogis: {
+    tarl: {
+      judul: "Teaching at the Right Level (TaRL)",
+      deskripsi: "Diawali asesmen diagnostik singkat, lalu murid diarahkan ke salah satu dari 3 tingkat tantangan belajar:",
+      levels: [
+        { level: "Level 1 (Dasar)", fokus: "Pengenalan dan pemahaman konsep dasar melalui contoh sederhana aktivitas sehari-hari." },
+        { level: "Level 2 (Menengah)", fokus: "Penerapan konsep logika terstruktur dan pemecahan masalah dengan langkah sistematis." },
+        { level: "Level 3 (Lanjutan)", fokus: "Analisis masalah kompleks, evaluasi alternatif solusi, dan optimasi algoritma bersyarat." }
+      ]
+    },
+    dup: {
+      judul: "Desain Universal untuk Pembelajaran (DUP / UDL)",
+      deskripsi: "Menyediakan variasi multimodal penyajian materi (teks, visual, ilustrasi simulatif) dan fleksibilitas bentuk asesmen agar setiap murid dapat memahami materi dengan cara terbaiknya."
+    },
+    growthMindset: {
+      judul: "Pola Pikir Bertumbuh (Growth Mindset)",
+      deskripsi: "Menjadikan kekeliruan saat mengerjakan kuis/simulasi sebagai kesempatan belajar dan mengulang, bukan sebagai vonis ketidakmampuan."
+    }
+  },
+
+  // 4. 5 Prinsip Inovasi Pendidikan
+  prinsipInovasi: [
+    {
+      prinsip: "Kebaruan (Novelty)",
+      ringkasan: "Kursus digital mandiri yang mengintegrasikan materi bertingkat, aktivitas simulatif, dan asesmen formatif dalam satu platform web mandiri."
+    },
+    {
+      prinsip: "Kreativitas",
+      ringkasan: "Memadukan teknologi web dengan sintaks TaRL (3 level bertingkat), DUP (multimodal), dan Growth Mindset (umpan balik konstruktif)."
+    },
+    {
+      prinsip: "Relevansi & Kontekstualitas",
+      ringkasan: "Mengaitkan materi komputasi dengan prosedur membubut, identifikasi kerusakan mesin frais, dan pemecahan masalah nyata kejuruan."
+    },
+    {
+      prinsip: "Kebermanfaatan (Usefulness)",
+      ringkasan: "Memfasilitasi murid belajar sesuai ritme pribadinya; membantu guru mengelola diferensiasi kelas secara efektif dan terukur."
+    },
+    {
+      prinsip: "Efektivitas Berbasis Bukti",
+      ringkasan: "Dievaluasi melalui uji kelayakan sistem, kuesioner pengguna (target > 80% positif), dan analisis pre-test vs post-test."
+    }
+  ],
+
+  // 5. Alur 5 Tahap Implementasi di SMK Negeri 2 Yogyakarta
+  tahapImplementasi: [
+    { tahap: "1. Persiapan & Validasi", uraian: "Penyelesaian rancangan web, pengujian navigasi, keterbacaan, dan verifikasi jaringan lab sekolah." },
+    { tahap: "2. Asesmen Diagnostik", uraian: "Pengenalan alur belajar website dan pelaksanaan asesmen diagnostik singkat untuk rekomendasi level awal." },
+    { tahap: "3. Eksplorasi Mandiri", uraian: "Murid mempelajari materi bertahap, mencoba simulasi, dan guru mendampingi sebagai fasilitator." },
+    { tahap: "4. Penguatan & Pengayaan", uraian: "Murid yang belum tuntas diarahkan mengulang materi; murid yang tuntas melanjutkan ke tantangan lanjutan." },
+    { tahap: "5. Refleksi & Umpan Balik", uraian: "Refleksi bersama mengenai manfaat Berpikir Komputasional dan pengisian kuesioner evaluasi website." }
+  ],
+
+  // 6. Rencana Evaluasi Keberhasilan
+  rencanaEvaluasi: [
+    { fokus: "Kelayakan & Fungsi Sistem", metode: "Pengujian fungsionalitas navigasi, input interaktif, dan akurasi skor asesmen formatif." },
+    { fokus: "Pengalaman Pengguna (UX)", metode: "Kuesioner skala Likert (kemudahan, kejelasan bahasa, tampilan) dengan target sekurang-kurangnya 80% positif." },
+    { fokus: "Peningkatan Hasil Belajar", metode: "Komparasi skor asesmen sebelum (pre-test) dan sesudah (post-test) penggunaan website pembelajaran." }
+  ]
+};
+
+// Daftar Karya Inovasi untuk Tampilan Showcase
+export const karyaInovasi = [
+  inovasiUtamaLK4,
+  {
+    id: "inovasi-proyek-kepemimpinan",
+    namaKarya: "Rancang Bangun Sistem Monitoring Real-Time KBM Berbasis Website di SMK Negeri 2 Yogyakarta",
+    judulSingkat: "Sistem Monitoring KBM Sekolah",
+    kategori: "Proyek Kepemimpinan & Sistem Informasi",
+    sasaran: "Warga Sekolah SMK Negeri 2 Yogyakarta (Guru Piket, Manajemen, Siswa)",
+    mataPelajaran: "Proyek Kepemimpinan Kelompok 3B",
+    tahun: "2025/2026",
+    gambar: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=700",
+    deskripsiSingkat: "Digitalisasi pemantauan keterlaksanaan KBM kelas dan bengkel secara real-time untuk mempercepat rekapitulasi guru piket dan transparansi proses belajar.",
+    identifikasiTantangan: [
+      { nomor: "01", judul: "Pencatatan Presensi Manual", deskripsi: "Rekapitulasi kertas antar-bengkel yang luas membutuhkan waktu lama.", tag: "Efisiensi Waktu" }
+    ],
+    prinsipInovasi: [
+      { prinsip: "Kebaruan", ringkasan: "Monitoring KBM multi-bengkel secara real-time berbasis web responsif." },
+      { prinsip: "Kebermanfaatan", ringkasan: "Memangkas waktu rekapitulasi guru piket dari harian menjadi hitungan detik." }
+    ]
+  }
+  
+];
+
+export default { inovasiUtamaLK4, karyaInovasi };

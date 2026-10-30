@@ -13,7 +13,7 @@
 import { biodata } from "./biodata.js";
 import { mataKuliahSemester1, mataKuliahSemester2 } from "./mataKuliah.js";
 import { refleksiMenyeluruh } from "./refleksiPPG.js";
-import { karyaInovasi } from "./karyaInovasi.js";
+import { karyaInovasi, inovasiUtamaLK4 } from "./karyaInovasi.js";
 import { rencanaTindakLanjut } from "./rencanaTindakLanjut.js";
 
 // Ekspor individual agar halaman dapat mengimpor data spesifik
@@ -23,6 +23,7 @@ export {
   mataKuliahSemester2,
   refleksiMenyeluruh,
   karyaInovasi,
+  inovasiUtamaLK4,
   rencanaTindakLanjut
 };
 
