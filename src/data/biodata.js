@@ -18,7 +18,7 @@ export const biodata = {
   sekolahPPL: "SMK Negeri 2 Yogyakarta",
   kelasPPL: "Kelas X Teknik Pemesinan",
   mataPelajaranPPL: "Informatika",
-  fotoProfil: "/src/assets/Profile.png",
+  fotoProfil: "/Profile.png",
   tagline: "Calon Guru Profesional yang Reflektif, Adaptif, dan Pembelajaran yang Berpusat pada Murid",
   dokumenLK1: "/dokumen/lk1-identifikasi-diri.pdf",
 
